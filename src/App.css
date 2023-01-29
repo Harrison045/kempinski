@@ -14,23 +14,29 @@
   top: 290px; */
   font-size: 3.25rem;
   color: rgb(250, 246, 246);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   text-align: top;
 }
+.kem {
+  letter-spacing: 0.01em;
+  font-size: 2.5rem;
+  line-height: 2.4375rem;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
 .text1 {
-  font-family: 'Poppins ', sans-serif ;
+  font-family: "Poppins ", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
   text-align: left;
 }
-
 .button {
   width: 150px;
   height: 40px;
   border: 1px solid gray;
-  font-family: 'Noto Sans NKo', sans-serif;
+  font-family: "Noto Sans NKo", sans-serif;
   font-size: 13px;
   align-items: center;
   background-color: transparent;
@@ -42,12 +48,9 @@
   padding-bottom: 0.75rem;
   border-color: rgb(181 161 145 / var(--tw-border-opacity));
 }
-.kem {
-  letter-spacing: 0.01em;
-  font-size: 2.5rem;
-  line-height: 2.4375rem;
-  font-family: 'Playfair Display', serif;
-  text-align: left;
+.col1 {
+  border-left: 1px solid lightgray;
+  left: 200px;
 }
 .imag {
   /* width: 200px;
@@ -59,21 +62,16 @@
   left: 230px;
   /* bottom: 30px; */
 }
-.col1 {
-  border-left: 1px solid lightgray;
-  left: 200px;
-  
-}
-.reservation {
-  padding-left: 4rem;
-  font-size: 1rem;
-  font-family: 'Playfair Display', serif;
-}
 .mail {
   width: 30px;
   position: relative;
   left: 140px;
   top: 30px;
+}
+.reservation {
+  padding-left: 4rem;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
 }
 .phone {
   width: 30px;
@@ -86,7 +84,7 @@
   font-size: 1.3rem;
   padding-left: 3rem;
   font-size: 1rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .location {
   width: 30px;
@@ -99,17 +97,7 @@
   bottom: 57px;
   font-size: 1rem;
   padding-left: 3rem;
-  font-family: 'Playfair Display', serif;
-}
-
-.room {
-  position: relative;
-  bottom: 500px;
-  /* left: 630px; */
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .discover {
   position: relative;
@@ -119,28 +107,39 @@
   height: 50px;
   background-color: transparent;
   border: 1px solid rgb(252, 249, 249);
-  font-family: 'Noto Sans Syloti Nagri', sans-serif;
+  font-family: "Noto Sans Syloti Nagri", sans-serif;
   font-size: 20px;
   align-items: center;
   color: white;
   text-align: center;
 }
+.room {
+  position: relative;
+  bottom: 500px;
+  /* left: 630px; */
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
 .room-text {
   position: relative;
   bottom: 490px;
   color: white;
   text-align: center;
   font-size: 1rem;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 .words {
   position: relative;
   top: 150px;
-  font-family: 'Playfair Display', serif;  
+  font-family: "Playfair Display", serif;
 }
-.word1{
+
+.word1 {
   font-size: 1.2rem;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .word2 {
   height: 405 px;
@@ -151,6 +150,7 @@
   height: 50px;
   border: 1px solid lightgray;
   background-color: transparent;
+  font-family: "Noto Sans NKo", sans-serif;
 }
 .head {
   background-color: rgb(241, 240, 240);
@@ -165,137 +165,26 @@
   position: relative;
   top: 170px;
   text-align: center;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.025em;
+}
+.readmore {
+  position: relative;
+  top: 15rem;
+  width: 10em;
+  height: 3em;
+  background-color: transparent;
+  border: 1.3px solid rgb(179, 176, 176);
+  font-family: "Noto Sans Syloti Nagri", sans-serif;
 }
 .pots {
   height: 700px;
   width: 500px;
   padding-top: 20%;
 }
-
-.Sign {
-  position: relative;
-  left: 61rem;
-  background-color: transparent;
-  font-size: large;
-  color: rgb(48, 47, 47);
-  font-family: "Inter", sans-serif;
+.meeting {
+  padding-top: 10rem;
 }
-
-.Home {
-  position: relative;
-  left: 39rem;
-  background-color: transparent;
-}
-.Home-image {
-  width: 100px;
-}
-
-.Book {
-  position: relative;
-  left: 65rem;
-  background-color:transparent;
-  border:0 ;
-  width: 120px;
-  height: 50px;
-  font-size: large;
-  color: rgb(250, 249, 249);
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: rgb(48, 47, 47);
-  font-family: "Inter", sans-serif;
-}
-.Book:hover{
-  border:  1px solid rgb(241, 106, 57);
-}
-.show {
-  text-align: center;
-}
-
-.footer {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 16 42 / var(--tw-bg-opacity));
-  padding: 24px 22px;
-  font-size: 1.1rem;
-}
-.footer-container {
-  position: relative;
-  right: 7rem;
-}
-
-.footer-info {
-  margin-left: 150px;
-  color: white;
-}
-.footer-info2 {
-  color: white;
-}
-.footer-info3 {
-  color: white;
-}
-
-.input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid white;
-  font-family: " HeleneHess-Regular", sans-serif;
-  font-size: 1.625rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.01em;
-  padding: 0.75rem 1rem;
-}
-.arrow {
-  width: 50px;
-}
-::placeholder {
-  color: rgb(189, 187, 187);
-  text-align: left;
-}
-
-.input:hover {
-  color: rgb(255, 250, 250);
-}
-.social-media {
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-top: 1rem;
-  border: 0;
-  border: 0.5px solid grey;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-.facebook {
-  width: 30px;
-}
-.twitter {
-  width: 30px;
-}
-.instagram {
-  width: 30px;
-}
-.sino {
-  width: 30px;
-}
-
-.footer-2-container {
-  color: rgb(105, 103, 103);
-}
-.copyright {
-  position: relative;
-  left: 5rem;
-  color: white;
-}
-.global-col {
-  position: relative;
-  left: 20rem;
-}
-.global {
-  width: 150px;
-}
-
 .containers {
   position: relative;
   width: 100%;
@@ -331,37 +220,164 @@
   text-align: center;
   opacity: 1px;
 }
+.caro{
+  height: 50rem;
+}
+.caros{
+  height: 50rem;
+}
+.event1 {
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  bottom: 2rem;
+}
+.event2 {
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  bottom: 5rem;
+}
+.event3 {
+  text-align: center;
+  font-size: 1rem;
+  position: relative;
+  bottom: 4rem;
+}
 .carousel-info {
   position: relative;
   bottom: 30rem;
   text-align: center;
   font-size: xx-large;
 }
-.event1 {
-  text-align: left;
-  font-size: 1rem;
-  position: relative;
-  bottom: 2rem;
-  right: 5rem;
+.show {
+  text-align: center;
+  font-family: "Playfair Display", serif;
 }
-.event2 {
-  text-align: left;
-  font-size: 1rem;
-  position: relative;
-  bottom: 5rem;
-  right: 5rem;
+.footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 16 42 / var(--tw-bg-opacity));
+  padding: 24px 22px;
+  font-size: 1.1rem;
 }
-.event3 {
-  text-align: left;
-  font-size: 1rem;
+.footer-container {
   position: relative;
-  bottom: 4rem;
-  right: 5rem;
+  right: 7rem;
 }
+
+.footer-info {
+  margin-left: 150px;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+.footer-info2 {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+.footer-info3 {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  font-family: " HeleneHess-Regular", sans-serif;
+  font-size: 1.625rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.01em;
+  padding: 0.75rem 1rem;
+}
+.social-media {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  border: 0;
+  border: 0.5px solid grey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.facebook {
+  width: 30px;
+}
+.twitter {
+  width: 30px;
+}
+.instagram {
+  width: 30px;
+}
+.sino {
+  width: 30px;
+}
+.footer-2-container {
+  color: rgb(105, 103, 103);
+  font-family: 'PT Sans', sans-serif;
+}
+.copyright {
+  position: relative;
+  left: 5rem;
+  color: white;
+}
+.global-col {
+  position: relative;
+  left: 20rem;
+}
+.global {
+  width: 150px;
+}
+.Sign {
+  position: relative;
+  left: 61rem;
+  background-color: transparent;
+  font-size: large;
+  color: rgb(48, 47, 47);
+  font-family: "Inter", sans-serif;
+}
+
+.Home {
+  position: relative;
+  left: 39rem;
+  background-color: transparent;
+}
+.Home-image {
+  width: 100px;
+}
+
+.Book {
+  position: relative;
+  left: 65rem;
+  background-color: transparent;
+  border: 0;
+  width: 120px;
+  height: 50px;
+  font-size: large;
+  color: rgb(250, 249, 249);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: rgb(48, 47, 47);
+  font-family: "Inter", sans-serif;
+}
+.Book:hover {
+  border: 1px solid rgb(241, 106, 57);
+}
+
+.arrow {
+  width: 50px;
+}
+::placeholder {
+  color: rgb(189, 187, 187);
+  text-align: left;
+}
+
+.input:hover {
+  color: rgb(255, 250, 250);
+}
+
 .mail2 {
   background-color: transparent;
   width: 100px;
-}
-.meeting {
-  padding-top: 10rem;
 }

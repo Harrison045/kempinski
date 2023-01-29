@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <Carousel className="cat">
+        <Carousel>
           <Carousel.Item interval={1000}>
             <img
               className="d-block w-100 carousel"
@@ -172,11 +172,12 @@ const Home = () => {
               <h1 className="spa">Resense Spa</h1>
               <br />
               <p className="word">
-                The Resense Spa spans three floors of blissful healing for mind,
-                body and spirit. Each floor is equipped with facilities for
-                pampering spa treatments, dedicated to beauty, fitness and
-                serene wellness.
+                The Resense Spa spans three floors of blissful<br/> healing for mind,
+                body and spirit. Each floor is <br/> equipped with facilities for
+                pampering spa <br/> treatments, dedicated to beauty, fitness and
+                serene <br/> wellness.
               </p>
+              <button className="readmore">READ MORE</button>
             </Col>
             <Col>
               <img src="pot.jpeg" alt="pot" className="pots" />
@@ -202,8 +203,8 @@ const Home = () => {
             <button className="read">READ MORE</button>
           </Col>
 
-          <Col>
-            <Carousel fade>
+          <Col className="caros">
+            <Carousel fade className="caro">
               <Carousel.Item>
                 <div className="containers">
                   <img
@@ -293,7 +294,6 @@ const Home = () => {
           experiences using the username @Kempinski.
         </p>
       </div>
-      <br />
       <br />
       <br />
 
