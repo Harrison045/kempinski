@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const RoomsSuits=()=>{
-    return(
-        <div>
-            RoomsSuits
-        </div>
-    )
+class RoomsSlides {
+  render() {
+    return <div></div>;
+  }
 }
 
-export default RoomsSuits;
+export default RoomsSlides;
