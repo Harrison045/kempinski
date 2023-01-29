@@ -6,7 +6,7 @@
 .carousel {
   height: 650px;
 }
-.cap{
+.cap {
   margin-bottom: 150px;
 }
 .Text {
@@ -14,12 +14,12 @@
   top: 290px; */
   font-size: 3.25rem;
   color: rgb(250, 246, 246);
-  font-family: HeleneHess-Regular, sans-serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   text-align: top;
 }
 .text1 {
-  font-family: "Jost", sans-serif;
+  font-family: 'Poppins ', sans-serif ;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
@@ -30,8 +30,8 @@
   width: 150px;
   height: 40px;
   border: 1px solid gray;
-  font-family: "Jost", sans-serif;
-  font-size: 12px;
+  font-family: 'Noto Sans NKo', sans-serif;
+  font-size: 13px;
   align-items: center;
   background-color: transparent;
   font-weight: 500;
@@ -44,9 +44,9 @@
 }
 .kem {
   letter-spacing: 0.01em;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 2.4375rem;
-  font-family: "HeleneHess-Regular", sans-serif;
+  font-family: 'Playfair Display', serif;
   text-align: left;
 }
 .imag {
@@ -62,57 +62,64 @@
 .col1 {
   border-left: 1px solid lightgray;
   left: 200px;
+  
 }
-.reservation{
-  font-size: 1.3rem;
+.reservation {
   padding-left: 4rem;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 .mail {
   width: 30px;
   position: relative;
-  left: 100px;
+  left: 140px;
   top: 30px;
 }
 .phone {
   width: 30px;
   position: relative;
-  left: 175px;
+  left: 195px;
 }
 .call {
   position: relative;
   bottom: 27px;
   font-size: 1.3rem;
   padding-left: 3rem;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 .location {
   width: 30px;
   position: relative;
-  left: 190px;
+  left: 210px;
   bottom: 25px;
 }
 .place {
   position: relative;
   bottom: 57px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-left: 3rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .room {
   position: relative;
   bottom: 500px;
-  left: 630px;
+  /* left: 630px; */
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 .discover {
-  /* position: relative;
+  position: relative;
   bottom: 300px;
-  left: 580px; */
+  left: 580px;
   width: 200px;
   height: 50px;
   background-color: transparent;
   border: 1px solid rgb(252, 249, 249);
-  font-family: "Jost", sans-serif;
+  font-family: 'Noto Sans Syloti Nagri', sans-serif;
   font-size: 20px;
   align-items: center;
   color: white;
@@ -120,124 +127,134 @@
 }
 .room-text {
   position: relative;
-  bottom: 500px;
+  bottom: 490px;
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 .words {
   position: relative;
   top: 150px;
+  font-family: 'Playfair Display', serif;  
+}
+.word1{
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .word2 {
   height: 405 px;
-  width:  465px;
+  width: 465px;
 }
-.read{
+.read {
   width: 150px;
   height: 50px;
   border: 1px solid lightgray;
   background-color: transparent;
 }
-.head{
+.head {
   background-color: rgb(241, 240, 240);
   height: 800px;
 }
-.word{
+.word {
   position: relative;
   top: 170px;
   text-align: center;
 }
-.spa{
+.spa {
   position: relative;
   top: 170px;
   text-align: center;
 }
-.pots{
+.pots {
   height: 700px;
   width: 500px;
   padding-top: 20%;
 }
 
-
-.Sign{
+.Sign {
   position: relative;
   left: 61rem;
   background-color: transparent;
   font-size: large;
-  color: black;
-  text-transform: capitalize;
+  color: rgb(48, 47, 47);
+  font-family: "Inter", sans-serif;
 }
 
-.Home{
+.Home {
   position: relative;
   left: 39rem;
   background-color: transparent;
 }
-.Home-image{
+.Home-image {
   width: 100px;
 }
 
-.Book{
+.Book {
   position: relative;
   left: 65rem;
-  background-color: rgb(235, 197, 240);
-  border: 0;
-  width:110px;
+  background-color:transparent;
+  border:0 ;
+  width: 120px;
   height: 50px;
   font-size: large;
   color: rgb(250, 249, 249);
-  padding-top: .75rem;
-    padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: rgb(48, 47, 47);
+  font-family: "Inter", sans-serif;
 }
-.show{
+.Book:hover{
+  border:  1px solid rgb(241, 106, 57);
+}
+.show {
   text-align: center;
 }
 
-.footer{
+.footer {
   --tw-bg-opacity: 1;
-  background-color: rgb(2 16 42/var(--tw-bg-opacity));
+  background-color: rgb(2 16 42 / var(--tw-bg-opacity));
   padding: 24px 22px;
   font-size: 1.1rem;
 }
-.footer-container{
+.footer-container {
   position: relative;
   right: 7rem;
 }
 
-.footer-info{
+.footer-info {
   margin-left: 150px;
   color: white;
 }
-.footer-info2{
+.footer-info2 {
   color: white;
 }
-.footer-info3{
+.footer-info3 {
   color: white;
 }
 
-.input{
+.input {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
-  font-family:" HeleneHess-Regular",sans-serif;
-    font-size: 1.625rem;
-    line-height: 1.75rem;
-    letter-spacing: .01em;
-    padding: .75rem 1rem;
+  font-family: " HeleneHess-Regular", sans-serif;
+  font-size: 1.625rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.01em;
+  padding: 0.75rem 1rem;
 }
-.arrow{
+.arrow {
   width: 50px;
 }
-::placeholder{
+::placeholder {
   color: rgb(189, 187, 187);
   text-align: left;
 }
 
-.input:hover{
+.input:hover {
   color: rgb(255, 250, 250);
 }
-.social-media{
+.social-media {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -248,45 +265,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0; 
+  padding: 0;
 }
-.facebook{
-  width: 30px;
-  
-}
-.twitter{
+.facebook {
   width: 30px;
 }
-.instagram{
+.twitter {
   width: 30px;
 }
-.sino{
+.instagram {
+  width: 30px;
+}
+.sino {
   width: 30px;
 }
 
-.footer-2-container{
+.footer-2-container {
   color: rgb(105, 103, 103);
 }
-.copyright{
+.copyright {
   position: relative;
   left: 5rem;
   color: white;
 }
-.global-col{
+.global-col {
   position: relative;
   left: 20rem;
 }
-.global{
+.global {
   width: 150px;
 }
-
-
 
 .containers {
   position: relative;
   width: 100%;
 }
-
 
 .overlay {
   position: absolute;
@@ -296,8 +309,8 @@
   background-color: #000000;
   overflow: hidden;
   width: 100%;
-  height:0;
-  transition: .5s ease;
+  height: 0;
+  transition: 0.2s ease;
   opacity: 0.7;
 }
 
@@ -318,37 +331,37 @@
   text-align: center;
   opacity: 1px;
 }
-.carousel-info{
+.carousel-info {
   position: relative;
   bottom: 30rem;
   text-align: center;
   font-size: xx-large;
 }
-.event1{
+.event1 {
   text-align: left;
   font-size: 1rem;
   position: relative;
   bottom: 2rem;
   right: 5rem;
 }
-.event2{
+.event2 {
   text-align: left;
   font-size: 1rem;
   position: relative;
   bottom: 5rem;
   right: 5rem;
 }
-.event3{
+.event3 {
   text-align: left;
   font-size: 1rem;
   position: relative;
   bottom: 4rem;
   right: 5rem;
 }
-.mail2{
+.mail2 {
   background-color: transparent;
   width: 100px;
 }
-.meeting{
+.meeting {
   padding-top: 10rem;
 }

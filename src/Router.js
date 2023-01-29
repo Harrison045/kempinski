@@ -17,10 +17,11 @@ function Router() {
         <img src="HARRI1.png" alt="logo" className="Home-image"/>
       </Link>
       <Link to="SignIn" className="Sign">
-        SIGN IN
+        <strong>SIGN IN</strong>
+        
       </Link>
       <Link to="Book">
-        <button className="Book">BOOK NOW</button>
+        <button className="Book"><strong>BOOK NOW</strong></button>
         
       </Link>
 

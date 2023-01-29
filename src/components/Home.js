@@ -133,11 +133,13 @@ const Home = () => {
           </Col>
           <Col className="words">
             <h1>Restaurants & Bars</h1>
-            <p>
+            <br/>
+            <p className="word1">
               Experience Mediterranean, European, and popular Oriental classics.
               Indulge in our local interpretations of Ghanaian regional
               favourites, amidst artwork that reflects the soul of Accra.
             </p>
+            <br/>
             <h1>Papillon Restaurant</h1>
             <br />
             <h1>The Gallery Bar</h1>
