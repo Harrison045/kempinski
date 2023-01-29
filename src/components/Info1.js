@@ -25,7 +25,7 @@ const Info1 = () => {
           <br />
           <div>
             <img src="mail.png" alt="mail" className="mail" />
-            <p className="text-center">reservations.accra@kempinski.com</p>
+            <p className="text-center reservation">Reservations.accra@kempinski.com</p>
           </div>
           <div>
             <img src="phone.jfif" alt="phone" className="phone" />
@@ -37,6 +37,10 @@ const Info1 = () => {
           </div>
         </Col>
       </Row>
+      <br/>
+      <br/>
+      <br/>
+      
     </Container>
   );
 };
