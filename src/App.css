@@ -1,16 +1,22 @@
 * {
   margin: 0;
+  width: auto;
+  height: auto;
 }
 .carousel {
   height: 650px;
 }
+.cap{
+  margin-bottom: 150px;
+}
 .Text {
-  position: relative;
-  bottom: 290px;
-  left: 10%;
+  /* position: relative;
+  top: 290px; */
   font-size: 3.25rem;
-  color: white;
+  color: rgb(250, 246, 246);
   font-family: HeleneHess-Regular, sans-serif;
+  text-align: center;
+  text-align: top;
 }
 .text1 {
   font-family: "Jost", sans-serif;
@@ -19,6 +25,7 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .button {
   width: 150px;
   height: 40px;
@@ -36,7 +43,6 @@
   border-color: rgb(181 161 145 / var(--tw-border-opacity));
 }
 .kem {
-  bottom: 100px;
   letter-spacing: 0.01em;
   font-size: 2.25rem;
   line-height: 2.4375rem;
@@ -57,30 +63,293 @@
   border-left: 1px solid lightgray;
   left: 200px;
 }
+.reservation{
+  font-size: 1.3rem;
+  padding-left: 4rem;
+}
 .mail {
   width: 30px;
   position: relative;
   left: 100px;
   top: 30px;
 }
-.phone{
+.phone {
   width: 30px;
   position: relative;
   left: 175px;
-  /* top: 30px; */
 }
-.call{
+.call {
   position: relative;
   bottom: 27px;
+  font-size: 1.3rem;
+  padding-left: 3rem;
 }
-.location{
+.location {
   width: 30px;
   position: relative;
   left: 190px;
-  bottom: 30px;
+  bottom: 25px;
 }
-.place{
+.place {
   position: relative;
   bottom: 57px;
+  font-size: 1.3rem;
+  padding-left: 3rem;
 }
 
+.room {
+  position: relative;
+  bottom: 500px;
+  left: 630px;
+  color: white;
+  font-size: 2rem;
+}
+.discover {
+  /* position: relative;
+  bottom: 300px;
+  left: 580px; */
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(252, 249, 249);
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.room-text {
+  position: relative;
+  bottom: 500px;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.words {
+  position: relative;
+  top: 150px;
+}
+.word2 {
+  height: 405 px;
+  width:  465px;
+}
+.read{
+  width: 150px;
+  height: 50px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+}
+.head{
+  background-color: rgb(241, 240, 240);
+  height: 800px;
+}
+.word{
+  position: relative;
+  top: 170px;
+  text-align: center;
+}
+.spa{
+  position: relative;
+  top: 170px;
+  text-align: center;
+}
+.pots{
+  height: 700px;
+  width: 500px;
+  padding-top: 20%;
+}
+
+
+.Sign{
+  position: relative;
+  left: 61rem;
+  background-color: transparent;
+  font-size: large;
+  color: black;
+  text-transform: capitalize;
+  
+}
+
+.Home{
+  position: relative;
+  left: 39rem;
+  background-color: transparent;
+}
+.Home-image{
+  width: 100px;
+}
+
+.Book{
+  position: relative;
+  left: 65rem;
+  background-color: rgb(235, 197, 240);
+  border: 0;
+  width:110px;
+  height: 50px;
+  font-size: large;
+  color: rgb(250, 249, 249);
+  padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.show{
+  text-align: center;
+}
+
+.footer{
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 16 42/var(--tw-bg-opacity));
+  padding: 24px 22px;
+  font-size: 1.1rem;
+}
+.footer-container{
+  position: relative;
+  right: 7rem;
+}
+
+.footer-info{
+  margin-left: 150px;
+  color: white;
+}
+.footer-info2{
+  color: white;
+}
+.footer-info3{
+  color: white;
+}
+
+.input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  font-family:" HeleneHess-Regular",sans-serif;
+    font-size: 1.625rem;
+    line-height: 1.75rem;
+    letter-spacing: .01em;
+    padding: .75rem 1rem;
+}
+.arrow{
+  width: 50px;
+}
+::placeholder{
+  color: rgb(189, 187, 187);
+  text-align: left;
+}
+
+.input:hover{
+  color: rgb(255, 250, 250);
+}
+.social-media{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  border: 0;
+  border: 0.5px solid grey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; 
+}
+.facebook{
+  width: 30px;
+  
+}
+.twitter{
+  width: 30px;
+}
+.instagram{
+  width: 30px;
+}
+.sino{
+  width: 30px;
+}
+
+.footer-2-container{
+  color: rgb(105, 103, 103);
+}
+.copyright{
+  position: relative;
+  left: 5rem;
+  color: white;
+}
+.global-col{
+  position: relative;
+  left: 20rem;
+}
+.global{
+  width: 150px;
+}
+
+
+
+.containers {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.7;
+}
+
+.containers:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1px;
+}
+.carousel-info{
+  position: relative;
+  bottom: 30rem;
+  text-align: center;
+  font-size: xx-large;
+}
+.event1{
+  text-align: left;
+  font-size: 1rem;
+  position: relative;
+  bottom: 2rem;
+  right: 5rem;
+}
+.event2{
+  text-align: left;
+  font-size: 1rem;
+  position: relative;
+  bottom: 5rem;
+  right: 5rem;
+}
+.event3{
+  text-align: left;
+  font-size: 1rem;
+  position: relative;
+  bottom: 4rem;
+  right: 5rem;
+}
+.mail2{
+  background-color: transparent;
+  width: 100px;
+}
+.meeting{
+  padding-top: 10rem;
+}
