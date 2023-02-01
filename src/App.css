@@ -48,6 +48,9 @@
   padding-bottom: 0.75rem;
   border-color: rgb(181 161 145 / var(--tw-border-opacity));
 }
+.button:hover{
+  border: 1px solid orangered;
+}
 .col1 {
   border-left: 1px solid lightgray;
   left: 200px;
@@ -380,4 +383,17 @@
 .mail2 {
   background-color: transparent;
   width: 100px;
+}
+.book{
+  background-image: url("https://th.bing.com/th/id/R.3cc6658e8a72c20f772a4d2cf8cdaea9?rik=FMR5RvRqygjK2A&riu=http%3a%2f%2fblog.laterooms.com%2fwp-content%2fuploads%2f2011%2f10%2fLuxuryUpgrade.jpg&ehk=dhNVi7qxwu0kmoyW2R1C%2by5sijEUMZE3rN5yJ4LXBEc%3d&risl=&pid=ImgRaw&r=0") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
+.form-label{
+  color: white;
+}
+.form-group{
+  background-color: transparent;
 }

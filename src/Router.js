@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Book from "./components/Book";
 import Home from "./components/Home";
-import SignIn from "./SignIn";
+import SignIn from "./components/SignIn";
 
 function Router() {
   return (
@@ -21,8 +21,7 @@ function Router() {
         
       </Link>
       <Link to="Book">
-        <button className="Book"><strong>BOOK NOW</strong></button>
-        
+        <button className="Book"><strong>BOOK NOW</strong></button>  
       </Link>
 
       <Routes>

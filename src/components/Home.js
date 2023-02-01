@@ -65,7 +65,7 @@ const Home = () => {
               district and minutes away from Accra's national centre for culture
               and art.
             </p>
-            <br />
+            {/* <br /> */}
             <button className="button" variant="light">
               <strong>HOTEL DETAILS</strong>
             </button>
