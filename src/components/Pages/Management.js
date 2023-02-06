@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Management = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div className="">
       <div className="bg-white management">
@@ -39,36 +44,37 @@ const Management = () => {
                 provides value for startups and SMEs across Africa by creating
                 strategic collaborations.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                <a
+              <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start btn">
+              <div className='animation' data-aos='zoom-in'>
+                 <button
                   href="#"
-                  className="rounded-md bg-white px-3.5 py-1.5 text-base font-semibold leading-7 text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className=" transition delay-150 duration-300 ease-in-out btn1 h-10 w-100 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 text-black shadow-lg hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Get started
-                </a>
-                <a
-                  href="#"
-                  className="text-base font-semibold leading-7 text-white"
-                >
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
+                </button>
+              </div>
+               
               </div>
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
-              <img
-                className="absolute top-0 left-10 w-[17rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-                src="Starup_Lounge_home (2).jpg"
-                alt="App screenshot"
-                width={1824}
-                height={1080}
-              />
-              <img
-                className="absolute top-60 left-60 w-[13rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-                src="woman1.jpeg"
-                alt="woman"
-                width={624}
-                height={1080}
-              />
+              <div className="animation" data-aos="fade-up">
+                <img
+                  className="absolute top-0 left-10 w-[17rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                  src="Starup_Lounge_home (2).jpg"
+                  alt="App screenshot"
+                  width={1824}
+                  height={1080}
+                />
+              </div>
+              <div className="animation" data-aos="fade-down">
+                <img
+                  className="absolute top-60 left-60 w-[13rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                  src="woman1.jpeg"
+                  alt="woman"
+                  width={624}
+                  height={1080}
+                />
+              </div>
             </div>
           </div>
         </div>
