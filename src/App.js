@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Router from './Router';
+// import Fade from './Edit/Fade';
 
 // import FrameAnimation from './Edit/FrameAnimation';
 

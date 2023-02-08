@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 function TypeWrite  ()  {
     return (
-        <div className='text-center bg-black text-white md:p-80'>
+        <div className='text-center bg-white text-black md:p-80 '>
             <h1 className=''>
                 <Typewriter
                 options={{
