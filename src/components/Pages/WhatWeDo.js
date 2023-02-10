@@ -17,7 +17,6 @@ const WhatWeDo = () => {
             duration: 3,
             delay: 0.2,
           }}
-          // whileHover={{scale:0.9, opacity:0.2}}
         >
           What We Do
         </motion.h1>

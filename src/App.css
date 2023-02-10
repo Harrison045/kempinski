@@ -111,8 +111,12 @@ Nav Link::after {
   background-color: transparent;
 }
 .testimony {
-  width: 50rem;
+  width: 80rem;
   padding-left: 5rem;
+}
+.testimony1{
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .management {
   width: 100%;
@@ -131,158 +135,259 @@ Nav Link::after {
 .what1 {
   font-size: 4rem;
   color: rgb(201, 115, 80);
-  
 }
 .what2 {
   font-size: 1.3rem;
   color: rgb(22, 22, 22);
 }
-.card1{
+.card1 {
   border-width: 0;
 }
-.aws{
+.aws {
   width: 13rem;
   height: 7rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
-.aws1{
+.aws1 {
   width: 8rem;
 }
-.oxford{
+.oxford {
   width: 8rem;
   height: 5rem;
   padding-top: 2rem;
 }
-.isc{
+.isc {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.black{
+.black {
   width: 8rem;
   height: 5rem;
   padding-top: 1.7rem;
 }
-.africa{
+.africa {
   width: 8rem;
   height: 5rem;
   padding-top: 1.7rem;
 }
-.gayo{
+.gayo {
   width: 8rem;
   height: 5rem;
   padding-top: 1.7rem;
 }
-.compass{
+.compass {
   width: 8rem;
   height: 6rem;
   padding-top: 1.2rem;
 }
-.grass{
+.grass {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.mbm{
+.mbm {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.netwoork{
+.netwoork {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.launch{
+.launch {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.deutsch{
+.deutsch {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.ios{
+.ios {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.falling{
+.falling {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.innov{
+.innov {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.basil{
+.basil {
   width: 8rem;
   height: 5rem;
   padding-top: 1.5rem;
 }
-.card4{
+.card4 {
   width: 79rem;
   height: 100rem;
 }
-.teach{
+.teach {
   width: fit-content;
 }
-.lil{
+.lil {
   font-size: 3rem;
 }
-.cash{
+.cash {
   width: 8rem;
   position: relative;
-  top: 2rem;
+  top: 4rem;
 }
-.with{
+.with {
   position: relative;
   top: 11rem;
   right: 9rem;
   font-size: 1rem;
 }
-.cash-num{
+.cash-num {
   position: relative;
   left: 2rem;
-  top: 1rem;
+  top: 3rem;
 }
-.early{
+.early {
   position: relative;
   right: 3rem;
-  top: 1rem;
+  top: 3rem;
 }
-.peoples{
+.peoples {
   width: 8rem;
   position: relative;
   left: 15rem;
-  bottom: 14rem;
+  bottom: 12rem;
 }
-.people-num{
+.people-num {
   position: relative;
   left: 17.5rem;
-  bottom: 15rem;
+  bottom: 13rem;
 }
-.clients{
+.clients {
   position: relative;
-  bottom: 15rem;
+  bottom: 13rem;
   left: 15rem;
 }
-.earth{
+.earth {
   width: 5rem;
   position: relative;
-  bottom: 25rem;
+  bottom: 24rem;
   left: 30rem;
 }
-.earth-num{
+.earth-num {
   position: relative;
-  bottom: 24rem;
+  bottom: 23rem;
   left: 31.5rem;
 }
-.foot{
+.foot {
   position: relative;
-  bottom: 24rem;
+  bottom: 23rem;
   left: 28rem;
+}
+.payhippo-btn {
+  height: 10rem;
+  width: 13rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.payhippo-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.business-btn {
+  height: 10rem;
+  width: 13rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.business-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.enterprise2-btn {
+  height: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.enterprise2-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.gayo-btn {
+  height: 10rem;
+  width: 13rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.gayo-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+.isc-btn {
+  height: 10rem;
+  width: 13rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.isc-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.some{
+  position: relative;
+  top: 0.3rem;
+}
+.letter{
+  position: relative;
+  left: 2rem;
+  bottom: 1rem;
+}
+
+.some2{
+  position: relative;
+  bottom: 0.9rem;
+}
+.letter2{
+  position: relative;
+  left: 2rem;
+  bottom: 2.3rem;
+}
+.some3{
+  position: relative;
+  bottom: 2rem;
+}
+.letter3{
+  position: relative;
+  left: 2rem;
+  bottom: 3.3rem;
+}
+.some4{
+  position: relative;
+  bottom: 3rem;
+}
+.letter4{
+  position: relative;
+  left: 2rem;
+  bottom: 4.3rem;
+}
+.report{
+  height: auto;
+  width: 25rem;
+}
+.report1{
+  position: relative;
+  /* top: 5rem; */
+  width: 25rem;
+  height: 13rem;
+  border: 0;
+}
+::placeholder{
+  padding-left: 1rem;
+  font-size: large;
+}
+input{
+  background-color: #272727;
+}
+.mails{
+width: 20rem;
+height: 2.5rem;
 }
