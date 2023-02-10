@@ -45,14 +45,15 @@ const Management = () => {
                 strategic collaborations.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start btn">
-                <div className="animation" data-aos="zoom-in">
-                  <button
-                    href="#"
-                    className=" transition delay-150 duration-300 ease-in-out btn1 h-10 w-100 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 text-white shadow-lg hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                  >
-                    Get started
-                  </button>
-                </div>
+              <div className='animation' data-aos='zoom-in'>
+                 <button
+                  href="#"
+                  className=" transition delay-150 duration-300 ease-in-out btn1 h-10 w-100 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 text-black shadow-lg hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  Get started
+                </button>
+              </div>
+               
               </div>
             </div>
             <div className="relative mt-16 h-80 lg:mt-8">
