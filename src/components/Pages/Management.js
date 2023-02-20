@@ -48,7 +48,7 @@ const Management = () => {
               <div className='animation' data-aos='zoom-in'>
                  <button
                   href="#"
-                  className=" transition delay-150 duration-300 ease-in-out btn1 h-10 w-100 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 text-black shadow-lg hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className=" transition delay-150 duration-300 ease-in-out btn1 h-10 w-100 px-6 font-semibold rounded-full border border-slate-200 text-black shadow-lg hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Get started
                 </button>

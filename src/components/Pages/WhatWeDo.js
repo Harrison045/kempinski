@@ -1,6 +1,4 @@
-
 import React from "react";
-import { motion } from "framer-motion";
 import { Card, Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,35 +7,19 @@ const WhatWeDo = () => {
   return (
     <div>
       <div className="what">
-        <motion.h1
-          className="what1"
-          initial={{ x: -1000 }}
-          animate={{ x: [0, 1400, 0] }}
-          transition={{
-            duration: 3,
-            delay: 0.2,
-          }}
-        >
-          What We Do
-        </motion.h1>
-        <motion.p
-          className="what2"
-          initial={{ x: -900 }}
-          animate={{ x: [0, 1000, 0] }}
-          transition={{
-            duration: 3,
-            delay: 0.2,
-          }}
-        >
-          We have curated the right combination of support services <br /> that
-          allows us to provide you value for your money and time
-        </motion.p> 
+        <h1 className="what1 hover:font-bold hover:underline"> What We Do</h1>
+        <br/>
+        <p className="what2 hover:text-rose-900">
+            We have curated the right combination of support services <br /> that
+        allows us to provide you value for your money and time
+        </p>
+      
       </div>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
       <Container>
-         <Row>
+        <Row>
           <Col>
             <Card style={{ width: "16rem" }}>
               <Card.Img src="group2.jpeg" />
@@ -98,8 +80,6 @@ const WhatWeDo = () => {
           </Col>
         </Row>
       </Container>
-       
-      
     </div>
   );
 };

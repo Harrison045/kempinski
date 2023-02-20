@@ -9,13 +9,16 @@ import Project from "./components/Project";
 import KutanaAfrica from "./components/KutanaAfrica";
 import Blog from "./components/Blog";
 import Contacts from "./components/Contacts";
+import { motion } from "framer-motion";
 
 
 function Router() {
   return (
-    <div>
-      <BrowserRouter className="nav1">
-      <Navbar bg="white" expand="lg">
+      <motion.div>
+         <BrowserRouter className="nav1 ">
+          <motion.div className="nav"
+          >
+            <Navbar bg="white" expand="lg" >
         <Container fluid>
           <Link to="/">
             <img src="cropped-SLA-Logo.png" alt="SLA-LOGO" className="logo1" />
@@ -23,7 +26,7 @@ function Router() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0">
-              <Link to="/" className="Home">
+              <Link to="/" className="Home text-lg">
                 Home
               </Link>
               <Link to="About" className="About">
@@ -45,6 +48,9 @@ function Router() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+          </motion.div>
+          
+      
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -54,9 +60,10 @@ function Router() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> 
+      </motion.div>
     
-    </div>
+    
     
     
   );

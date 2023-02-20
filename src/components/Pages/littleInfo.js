@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const LittleInfo = () => {
   return (
@@ -32,7 +33,7 @@ const LittleInfo = () => {
                 <br /> projects <br /> and webinar series we have reached…
               </h1>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
+            <motion.div className="relative mt-16 h-80 lg:mt-8">
               <div>
                 <img src="cash.png" alt="cash" className="cash" />
                 <h2 className="cash-num text-white">500+</h2>
@@ -48,7 +49,7 @@ const LittleInfo = () => {
                 <h2 className="earth-num text-white">5+</h2>
                 <p className="foot text-white">Footprint in Countries</p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

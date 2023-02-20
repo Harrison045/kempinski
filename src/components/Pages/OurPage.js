@@ -4,11 +4,15 @@ import { Col, Container, Row } from "react-bootstrap";
 const OurPage = () => {
   return (
     <div>
-      <h1 className="text-center">Our Partner</h1>
+      <h1 className="text-center font-sans hover:font-black our">Our Partner</h1>
+      <br/>
+      <br/>
       <p className="text-center">
         We are building strategic partnerships that would allow us to <br />
         continuously provide value for our community.
       </p>
+      <br/>
+      <br/>
       <div className="card3">
         <Container>
           <Row>

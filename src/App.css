@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+p{
+  font-family: 'Heebo', sans-serif;
+}
 .logo1 {
   width: 3rem;
   position: relative;
@@ -15,7 +18,7 @@
 .Home {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #000000;
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
@@ -26,21 +29,16 @@
   padding-top: 0.3rem;
   border-radius: 0.3rem;
 }
-
-Nav Link::after {
-  content: "";
-  width: 50%;
-  height: 3px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgb(15, 15, 15);
+.Home:hover{
+  border: 1px solid rgb(104, 102, 102);
+  color: rgba(75, 4, 49, 0.4);
+  border-radius: 0.5;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .About {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #1c244b;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -50,11 +48,17 @@ Nav Link::after {
   text-align: center;
   padding-top: 0.3rem;
   border-radius: 0.5rem;
+}
+.About:hover{
+  border: 1px solid rgb(104, 102, 102);
+  color: #0792ee;
+  border-radius: 0.5;
+  box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(119, 1, 255, 0.3) 10px 10px, rgba(3, 241, 130, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .Project {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #1c244b;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -65,10 +69,16 @@ Nav Link::after {
   padding-top: 0.3rem;
   border-radius: 0.5rem;
 }
+.Project:hover{
+  border: 1px solid rgb(104, 102, 102);
+  color: #750404;
+  border-radius: 0.5;
+  box-shadow: rgba(247, 1, 1, 0.4) 5px 5px, rgba(49, 23, 40, 0.3) 10px 10px, rgba(36, 2, 99, 0.2) 15px 15px, rgba(12, 119, 2, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
 .KutanaAfrica {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #1c244b;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -79,10 +89,16 @@ Nav Link::after {
   border-radius: 0.5rem;
   text-align: center;
 }
+.KutanaAfrica:hover{
+  border: 1px solid rgb(104, 102, 102);
+  color: #ee0707;
+  border-radius: 0.5;
+  box-shadow: rgba(252, 5, 5, 0.774) 5px 5px, rgba(255, 238, 0, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
 .Blog {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #1c244b;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -93,10 +109,16 @@ Nav Link::after {
   padding-top: 0.3rem;
   border-radius: 0.5rem;
 }
+.Blog:hover {
+  border: 1px solid rgb(104, 102, 102);
+  color: #0792ee;
+  border-radius: 0.5;
+  box-shadow: rgba(187, 4, 243, 0.4) 5px 5px, rgba(2, 151, 250, 0.3) 10px 10px, rgba(63, 26, 49, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(109, 134, 15, 0.05) 25px 25px;
+}
 .Contacts {
   position: relative;
   left: 24rem;
-  top: 1rem;
+  top: 0.5rem;
   color: #1c244b;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
@@ -107,8 +129,14 @@ Nav Link::after {
   padding-top: 0.3rem;
   border-radius: 0.5rem;
 }
-.nav1 {
-  background-color: transparent;
+.Contacts:hover{
+  border: 1px solid rgb(104, 102, 102);
+  color: #07ee54;
+  border-radius: 0.5;
+  box-shadow: rgba(116, 235, 4, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(6, 247, 114, 0.2) 15px 15px, rgba(102, 6, 226, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.nav1{
+ opacity: 1;
 }
 .testimony {
   width: 80rem;
@@ -137,8 +165,14 @@ Nav Link::after {
   color: rgb(201, 115, 80);
 }
 .what2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: rgb(22, 22, 22);
+}
+.our{
+  color: rgb(201, 115, 80);
+}
+.client{
+  color: rgb(201, 115, 80);
 }
 .card1 {
   border-width: 0;
@@ -147,6 +181,9 @@ Nav Link::after {
   width: 13rem;
   height: 7rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+.aws:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .aws1 {
   width: 8rem;
@@ -341,6 +378,9 @@ Nav Link::after {
   left: 2rem;
   bottom: 1rem;
 }
+.testimony2{
+  color: rgb(201, 115, 80);
+}
 
 .some2{
   position: relative;
@@ -382,12 +422,105 @@ Nav Link::after {
 }
 ::placeholder{
   padding-left: 1rem;
-  font-size: large;
+  font-size: 1rem;
 }
 input{
-  background-color: #272727;
+  /* background-color: #272727; */
+  border: 0.2px solid rgb(51, 51, 51);
 }
 .mails{
-width: 20rem;
+width: 16rem;
 height: 2.5rem;
+}
+.footer-line{
+  border: 0.1px solid rgb(112, 110, 110);
+  opacity: 0.3;
+}
+.mails2{
+
+position: relative;
+top: 1.5rem;
+left: 18rem;
+}
+.mails3{
+  width: 15rem;
+  height: 2.3rem;
+
+}
+.subm{
+  position: relative;
+  height: 2rem;
+  left: 1rem;
+  bottom: 0.2rem;
+}
+.subm1{
+  position: relative;
+  bottom: 0.2rem;  
+}
+.sub{
+  position: relative;
+  bottom: 0.2rem;
+}
+.btn4{
+  position: relative;
+  bottom: 0.2rem;
+  left: 1rem;
+  height: 2rem;
+}
+.underfooter{
+  padding-top: 2rem;
+}
+.media{
+  position: relative;
+  left: 22rem;
+}
+.facebook{
+  width: 2rem;
+  position: relative;
+  left: 7.5rem;
+}
+.instagram{
+  width: 1.6rem;
+  position: relative;
+  left: 8rem;
+  bottom: 0.2rem;
+}
+.twitter{
+  width: 1.4rem;
+  position: relative;
+  left: 9rem;
+  bottom: 0.3rem;
+}
+.linkedIn{
+  width: 1.3rem;
+  position: relative;
+  left: 10rem;
+  bottom: 0.3rem;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* body {
+  background: linear-gradient(to right, #2c5364, #203a43);
+} */
+
+html{
+  font-family: sans-serif;
+}
+
+.card7{
+  background-color: white;
+  padding: 3rem 5rem;
+  width: auto;
+}
+
+.card7 p{
+  padding-top: 1rem;
+  line-height: 150%;
+}
+.expand{
+  width: 45rem;
 }

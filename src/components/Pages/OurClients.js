@@ -4,7 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const OurClients = () => {
   return (
     <div>
-      <h1 className="text-center font-bold font-xlg">Our Clients</h1>
+      <h1 className="text-center font-bold client ">Our Clients</h1>
+      <br/>
       <div>
         <Container>
           <Row>

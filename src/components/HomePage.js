@@ -48,8 +48,6 @@ const HomePage = () => {
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
       {/* <LatestPost/> */}
       <Footer/>
     </div>
