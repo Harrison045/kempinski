@@ -9,7 +9,7 @@ p{
 .logo1 {
   width: 3rem;
   position: relative;
-  left: 6rem;
+  bottom: 2rem;
 }
 .images {
   width: 100%;
@@ -17,12 +17,11 @@ p{
 }
 .Home {
   position: relative;
-  left: 24rem;
-  top: 0.5rem;
+  left: 0rem;
   color: #000000;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
-  text-decoration: none;
+  font-size: 0.9rem;
+  text-decoration: underline;
   width: 5rem;
   height: 2rem;
   text-align: center;
@@ -37,12 +36,12 @@ p{
 }
 .About {
   position: relative;
-  left: 24rem;
+  right: 1rem;
   top: 0.5rem;
   color: #1c244b;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 5rem;
   height: 2rem;
   text-align: center;
@@ -57,12 +56,12 @@ p{
 }
 .Project {
   position: relative;
-  left: 24rem;
+  right: 1rem;
   top: 0.5rem;
   color: #1c244b;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 5rem;
   height: 2rem;
   text-align: center;
@@ -77,12 +76,12 @@ p{
 }
 .KutanaAfrica {
   position: relative;
-  left: 24rem;
+  right: 1rem;
   top: 0.5rem;
   color: #1c244b;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 9rem;
   height: 2rem;
   padding-top: 0.3rem;
@@ -97,10 +96,10 @@ p{
 }
 .Blog {
   position: relative;
-  left: 24rem;
+  right: 1rem;
   top: 0.5rem;
   color: #1c244b;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
   width: 5rem;
@@ -117,12 +116,12 @@ p{
 }
 .Contacts {
   position: relative;
-  left: 24rem;
+  right: 1rem;
   top: 0.5rem;
   color: #1c244b;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 6rem;
   height: 2rem;
   text-align: center;
@@ -136,7 +135,11 @@ p{
   box-shadow: rgba(116, 235, 4, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(6, 247, 114, 0.2) 15px 15px, rgba(102, 6, 226, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .nav1{
- opacity: 1;
+ height: 1rem;
+}
+.nav{
+  height: 8rem;
+  opacity: 0.9.5;
 }
 .testimony {
   width: 80rem;
@@ -503,9 +506,6 @@ left: 18rem;
   justify-content: center;
   align-items: center;
 }
-/* body {
-  background: linear-gradient(to right, #2c5364, #203a43);
-} */
 
 html{
   font-family: sans-serif;
@@ -523,4 +523,25 @@ html{
 }
 .expand{
   width: 45rem;
+}
+.info2-img{
+  width: 30rem;
+  height: 38rem;
+}
+
+.sam-pic:hover{
+  color: #000000;
+}
+
+.section-3{
+background-color: #8f22d8;
+color: white;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.project{
+  font-size: 4rem;
 }

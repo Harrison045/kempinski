@@ -36,7 +36,7 @@ const TryoutWords = ({ texts }) => {
 
   return (
     <motion.div
-      style={{ overflow: "hidden", display: "flex", fontSize: "1.5rem" }}
+      style={{ overflow: "hidden", display: "flex", fontSize: "1.2rem" }}
       variants={container}
       initial="hidden"
       animate="visible"
